@@ -1,0 +1,164 @@
+/* Establecemos la codificación de caracteres */
+@charset "UTF-8";
+
+/* Reset de estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Fondo rosado y diseño principal */
+.fondo-rosa {
+  background-color: #df408a !important;
+}
+
+.hero {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #df408a;
+}
+
+.hero h1 {
+  font-size: 3.75em;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #df408a;
+}
+
+.navbar .navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #c13272;
+  border-radius: 5px;
+}
+
+/* Productos */
+.card {
+  width: 18rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  border-radius: 10px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+  font-size: 0.95em;
+}
+
+.card-body a {
+  font-weight: bold;
+  color: #df408a;
+}
+
+.card-body a:hover {
+  color: #c13272;
+  text-decoration: underline;
+}
+
+/* List group items */
+.list-group-item {
+  font-size: 0.9em;
+}
+
+/* Métodos de pago y iconos */
+.icons-section {
+  color: white;
+  font-size: 2.5em;
+}
+
+.fa-iconos {
+  font-size: 2em;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.pagos h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #df408a;
+}
+
+.logo-footer {
+  max-height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: 2.5em;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1em;
+  }
+
+  .fa-iconos {
+    font-size: 1.5em;
+    justify-content: center;
+  }
+}
+
+/* Mejoras de interactividad */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Mejoras visuales */
+body, .navbar, footer {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
